@@ -1,0 +1,57 @@
+.first {
+    background-color: black;
+    margin: 5px;
+    width: 50%;
+    padding: 20PX 5px;
+    border-radius: 10px;
+}
+
+.first p {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.first p span.first-Element {
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+}
+
+.first p span.second-Element {
+    font-family: fantasy;
+    color: rgb(58, 58, 221);
+    font-size: 70px;
+}
+
+.second {
+    background-color: rebeccapurple;
+    margin: 5px;
+    width: 50%;
+    padding: 20PX 5px;
+    border-radius: 10px;
+}
+
+.second p {
+    font-family: Helvetica;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.third {
+    background-color: lightblue;
+    margin: 5px;
+    width: 50%;
+    padding: 20PX 5px;
+    border-radius: 10px;
+}
+.third p{
+    padding-right: 10px;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: rgb(42, 5, 5);
+    text-align: right;
+    font-style: italic;
+    text-decoration: underline;
+}

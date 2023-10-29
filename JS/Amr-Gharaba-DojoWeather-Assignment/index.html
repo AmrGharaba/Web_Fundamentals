@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="headerMain">
+            <div class="header">
+                <p>DojoWeather</p>
+                <ul >
+                    <li onclick="notify()">Burbank</li>
+                    <li onclick="notify()">Chicago</li>
+                    <li onclick="notify()">Dallas</li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainBody">
+            <div class="cityRow">
+                <p>San Jose</p>
+                <label for="temperature">show temperature in</label>
+                <select name="temperature" id="temperature" onchange="tempSwitch(this)">
+                    <option value="celcius">°C</option>
+                    <option value="fahrenheit">°F</option>
+                </select>
+            </div>
+            <div class="weatherMain">
+                <div class="weatherCard">
+                    <ul>
+                        <li>Today</li>
+                        <li><img src="assets/some_rain.png" alt="rain icon"></li>
+                        <li>some rain</li>
+                        <li><p><span>24</span>°</p><p><span>18</span>°</p></li>
+                    </ul>
+                </div>
+                <div class="weatherCard">
+                    <ul>
+                        <li>Tomorrow</li>
+                        <li><img src="assets/some_sun.png" alt="rain icon"></li>
+                        <li>some rain</li>
+                        <li><p><span>24</span>°</p><p><span>18</span>°</p></li>
+                    </ul>
+                </div>
+                <div class="weatherCard">
+                    <ul>
+                        <li>Friday</li>
+                        <li><img src="assets/some_rain.png" alt="rain icon"></li>
+                        <li>some rain</li>
+                        <li><p><span>24</span>°</p><p><span>18</span>°</p></li>
+                    </ul>
+                </div>
+                <div class="weatherCard">
+                    <ul>
+                        <li>Today</li>
+                        <li><img src="assets/some_sun.png" alt="rain icon"></li>
+                        <li>some rain</li>
+                        <li><p><span>24</span>°</p><p><span>18</span>°</p></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="cookiePanel">
+                <img src="assets/cookie.png" alt="">
+                <div class="cookieText">
+                    <p>Stop! Coockie time</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum a nemo 
+                        fugit veritatis consectetur, laudantium saepe velit? Vel veritatis facere inventore!
+                        quod necessitatibus cupiditate maxime explicabo.<span>Read more...</span></p>
+                </div>
+                <button onclick="hide()">I Accept</button>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-nav">
+            <h1 class="logo">Profile</h1>
+            <div class="nav-bar">
+                <ul class="nav-menu">
+                    <li>Home</li>
+                    <li class="active">My Profile</li>
+                    <li>Find Connections</li>
+                </ul>
+                <button class="sign-out">Sign Out</button>
+        </div>
+        </div>
+        <div class="content">
+            <!--
+                <div class="side-bar">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+            
+
+
+            </div>-->
+            <div class="left-panel">
+                <div class="card">
+                    <div class="top">
+                        <img class="profile" src="icons/user-circle.png" alt="User profile picture">
+                    </div>
+                    <div class="body">
+                        <h1>John Doe</h1>
+                        <div class="location">
+                            <img class="icon" src="icons/map-marker.png" alt="map marker icon">
+                            <h3>Seatlle</h3>
+                        </div>
+                        <ul>
+                            <li>Developer | Engineer | Problem solver</li>
+                            <li>Master of shadows and the internet</li>
+                        </ul>
+                        <div class="footer">
+                            <img class="icon" src="icons/gear.png" alt="Gear icon">
+                            <p onclick="rename()">edit profile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <p>Education</p>
+                    <div class="body">
+                        <p>Coding Dojo - Full Stack BootCamp</p>
+                        <p>December 2019 - Mar 2020</p>
+                        <p>Triple black belt in Python, MERN and C# ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-panel">
+                <div class="pending">
+                    <p><span>2</span>Connection Requests</p>
+                    <div class="body">
+                        <div class="row">
+                            <div class="user">
+                                <img src="images/todd-s.jpg" alt="Pending Contact icon">
+                                <p>Todd E</p>
+                            </div>
+                            <div class="action">
+                                <img src="icons/accept-circle.png" alt="Accept icon" onclick="accept(), remove(this)">
+                                <img src="icons/close-circle.png" alt="Close icon" onclick="remove(this)">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="user">
+                                <img src="images/phil-s.jpg" alt="Pending Contact icon">
+                                <p>Phil K</p>
+                            </div>
+                            <div class="action">
+                                <img src="icons/accept-circle.png" alt="Accept icon" onclick="accept(), remove(this)">
+                                <img src="icons/close-circle.png" alt="Close icon" onclick="remove(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts">
+                    <p><span>418</span> Your Connections</p>
+                    <div class="body">
+                        <ul>
+                            <li>
+                                <img src="images/adrien-s.jpg" alt="">
+                                <p>Adrian D</p>
+                            </li>
+                            <li>
+                                <img src="images/anne-s.jpg" alt="">
+                                <p>Anne J</p>
+                            </li>
+                            <li>
+                                <img src="images/alayne-s.jpg" alt="">
+                                <p>Alayne T</p>
+                            </li>
+                            <li>
+                                <img src="images/arry-s.jpg" alt="">
+                                <p>Arry Y</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer">
+                        <p>View More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

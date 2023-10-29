@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dojonary</h1>
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button onclick="changeState(this)">Logout</button>
+        </div>
+        <div class="content">
+            <div class="left-panel">
+                <div class="vocab-panel">
+                    <div class="left-vocab">
+                        <ul>
+                            <li>ninja</li>
+                            <li>noun</li>
+                            <li>Plural:ninjas</li>
+                        </ul>
+                        <button onclick="note(this)">13 likes</button>
+                    </div>
+                    <p>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+                </div>
+                <div class="vocab-panel">
+                    <div class="left-vocab">
+                        <ul>
+                            <li>ninja</li>
+                            <li>noun</li>
+                            <li>Plural:ninjas</li>
+                        </ul>
+                        <button onclick="note(this)">37 likes</button>
+                    </div>
+                    <p>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+                </div>
+            </div>
+            <div class="right-panel">
+                <p>Dojonary is defined by <span>you</span></p>
+                <button onclick="hide(this)">Add Difinition</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

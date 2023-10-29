@@ -1,0 +1,48 @@
+.container {
+    background-color: rgb(228, 228, 228);
+    width: 700px;
+    padding: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.row1 {
+    background-color: rgb(195, 219, 227);
+    width: 700px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+}
+
+.row2 {
+    background-color: azure;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.row3 {
+    background-color: rgb(211, 175, 245);
+    width: 700px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 30px;
+    text-align: center;
+}

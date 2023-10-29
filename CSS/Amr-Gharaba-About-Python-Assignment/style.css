@@ -1,0 +1,269 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    font-family: arial;
+}
+
+.container {
+    width: 970px;
+    background-color: #245076;
+    margin: 0 auto;
+
+}
+
+.top-nav {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.top-nav img {
+    margin: 20px 0px 0px 30px;
+    width: 400px;
+}
+
+.right-nav {
+    flex: 1;
+    margin: 10px 15px 0px 0px;
+    max-width: 255px;
+}
+
+.text-size {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px 15px 5px 0px;
+    font-size: 12px;
+    color: white;
+
+}
+
+.text-size button {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    margin: 0px 5px;
+    color: #c1a805;
+    font-size: 12px;
+
+}
+
+.search {
+    background-color: #444444;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    box-shadow: 2px 2px 0px #282828;
+}
+
+.search input {
+    height: 30px;
+    width: 140px;
+    border-style: inset;
+    border: 3px solid;
+    border-color: #9a9a9a #eeeeee #eeeeee #9a9a9a;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.search input::placeholder {
+    color: rgb(213, 213, 213);
+}
+
+.search button {
+    background-color: #245076;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    padding: 7px 10px;
+    margin-left: 7px;
+    border: 2px solid;
+    border-style: outset;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #487fad;
+    box-shadow: 2px 2px 1px #1f2021;
+    margin: 0px 40px 0px 100px;
+    border-radius: 4px;
+}
+
+.nav-bar li {
+    list-style: none;
+    margin: 10px 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.top-body {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0px 60px 0px 100px;
+    border-bottom: 5px solid #183753;
+}
+
+.top-body .left-panel {
+    flex: 1;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.top-body .left-panel li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    padding: 5px 0px;
+}
+
+.top-body .left-panel li span {
+    text-decoration: underline;
+}
+
+.top-body .left-panel li::before {
+    content: ">>";
+    font-size: 7px;
+    color: #c1a805;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.top-body .right-panel {
+    flex: 3;
+    padding: 20px 0px 0px 0px;
+}
+
+.top-body .right-panel p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.top-body .right-panel ul {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.top-body .right-panel ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0px;
+    font-style: italic;
+    color: #c1a805;
+}
+
+.top-body .right-panel ul li:nth-child(6) {
+    color: white;
+}
+
+.low-body {
+    background-color: white;
+    color: black;
+    padding: 30px 60px 30px 100px;
+    display: flex;
+}
+
+.low-body h4 {
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.low-body .left-panel {
+    flex: 1;
+    border-top: 5px solid #73a7d5;
+    margin-right: 15px;
+}
+
+.low-body .left-panel p {
+    text-align: center;
+    font-size: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+}
+
+.left-panel ul {
+    padding-left: 60px;
+    padding-right: 60px;
+    color: black;
+}
+
+.left-panel ul li {
+    list-style: square;
+    text-align: center;
+
+}
+
+.left-panel ul li span {
+    color: #89b4db;
+    font-size: 15px;
+}
+
+.low-body .right-panel {
+    flex: 1;
+    border-top: 5px solid #73a7d5;
+    margin-left: 15px;
+}
+
+.low-body .right-panel p {
+    text-align: center;
+    font-size: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+}
+
+.low-body .right-panel p span {
+    color: #89b4db;
+}
+
+.right-panel ul {
+    padding-left: 60px;
+    padding-right: 60px;
+    color: black;
+}
+
+.right-panel ul li {
+    list-style: square;
+    text-align: center;
+
+}
+
+.right-panel ul li span {
+    color: #89b4db;
+    font-size: 15px;
+}
+
+.footer {
+    height: 100px;
+    background-image: linear-gradient(#25537b, #3274ac);
+
+}
+
+.footer ul {
+    padding: 40px 150px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #77aad7;
+    list-style: none;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 10px;
+    color: #77aad7;
+    font-size: 13px;
+
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: Roboto;
+}
+
+.nav {
+    background-color: rgb(49, 49, 49);
+    height: 50px;
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: aliceblue;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+}
+
+a {
+    color: rgb(203, 203, 203);
+    flex: 1;
+    text-decoration: none;
+}
+
+a.active {
+    color: white;
+}
+
+.btn {
+    color: white;
+    background-color: #17a2b8;
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
+}
